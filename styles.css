@@ -1,8 +1,13 @@
 body {
-    background-color: white;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .container_sketch{
+    background-color: white;
     border: 24px solid yellow;
     width: 600px;
     height: 600px;
@@ -10,23 +15,45 @@ body {
 
     display: grid;
     grid-gap: 1px;
-    
-    
 
-
-
+    align-self: center;
 }
 
 .box {
     border: 2px solid pink;
     min-width: 2px;
-    min-height: 2px;
-    
+    min-height: 2px; 
 }
 
-.mouseover {
-    background-color: black;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
 }
+
+.all_buttons_container {
+    width: 200px;
+    margin: 10px, auto;
+}
+.invisible_div {
+    width: 200px;
+}
+
+.grid_button_container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.mod_button_container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+
+
 
 
 
