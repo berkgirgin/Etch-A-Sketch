@@ -6,11 +6,13 @@ body {
 
 }
 
+
 .container_sketch{
     background-color: white;
-    border: 24px solid yellow;
-    width: 600px;
-    height: 600px;
+    border: 24px groove gold;
+    width: 580px;
+    height: 580px;
+    padding: 2px;
     box-sizing: border-box;
 
     display: grid;
@@ -45,11 +47,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 40px;
+    gap: 2px;
 }
 .mod_button_container {
     display: flex;
     flex-direction: column;
     margin: 40px;
+    gap: 2px;
 }
 
 
